@@ -194,3 +194,46 @@ body {
     font-size: 1.8rem;
     color: var(--icon-color);
 }
+@media(max-width: 60rem) {
+    .container{
+        margin: 1rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contactInfo {
+        text-align: center;
+    }
+    .right_Slide .about .title2 {
+        text-align: center;
+    }
+    .interest ul li {
+        text-align: center;
+    }
+    .hobby .title2 {
+        text-align: center;
+    }
+    .hobby ul {
+        margin-left: 7%;
+    }
+}
+@media (max-width:40rem) {
+    .about .box {
+        flex-direction: column;
+    }
+    .interest ul {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .skills .box {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hobby ul {
+        display: block;
+        margin-left: 15%;
+    }
+    .hobby ul li {
+        margin-top: 1rem;
+    }
+    
+}
