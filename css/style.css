@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;600&family=PT+Mono&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+:root {
+    --main-color: #05c98e;
+    --second-color: #240e88;
+    --threed-color: #6c08ca;
+    --color-white: #fff;
+    --icon-color: #03a9f4;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  Noto Sans Display;
+    list-style: none;
+    text-decoration: none;
+}    
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 3.2rem;
+}
+h2 {
+    font-size: 2.4rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1.6rem;
+}
+body {
+    background: linear-gradient(to top right, var(--main-color), var(--second-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ---------------------- Base Code End -------------------------- */
+.container { 
+    position: relative;
+    width: 100%;
+    max-width: 100rem;
+    min-height: 100rem;
+    background : var(--color-white);
+    margin: 5rem;  
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 3.5rem 5.5rem rgba(0, 0, 0, .1);
+}
+.container .left_Slide {
+    position: relative;
+    background: var(--threed-color);
+    padding: 4rem;
+}
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.profileText .imgBox img {
+    position: absolute;
+    object-fit:scale-down;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 70%;
+    border-radius: 50rem;
+}
+.profileText h2 {
+    color: var(--color-white);
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 60rem;
+    line-height: 3rem;
+    margin-top: 27rem;
+}
+.profileText h2 span {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.contactInfo {
+    padding-top: 4rem;
+}
+.title {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 60rem;
+    letter-spacing: .1rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.contactInfo ul {
+    position: relative;
+}
+.contactInfo ul li {
+    position: relative;
+    margin: 1rem 0;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.contactInfo ul li .icon {
+    width: 3rem;
+    font-size: 1.8rem;
+    color: var(--icon-color);
+}
+.contactInfo ul li span a {
+    color: var(--color-white);
+    font-weight: 300;
+}
+.education-start {
+    color: var(--icon-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/*-----------------------Right Side---------------------------*/
+
+.container .right_Slide {
+    position: relative;
+    background: var(--color-white);
+    padding: 4rem;
+    margin: 5% 0;
+}
+.about {
+    margin-bottom: 5rem;
+}
+.about:last-child {
+    margin-bottom: 0;
+}
+.title2 {
+    color: var(--second-color);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-bottom: 1rem;
+}
+.about p {
+    color: #333;
+}
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.skills .box h4 {
+    text-transform: uppercase;
+    color: #848c99;
+}
+.skills .box .perecent {
+    position: relative;
+    width: 100%;
+    height: 1rem;
+    background: #f0f0f0;
+    border-radius: 1rem;
+}
+.skills .box .perecent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--icon-color);
+}
+.hobby ul {
+    display: flex;
+
+}
+.hobby ul li {
+    display: inline-block;
+    padding: 1rem;
+    border:solid #f0f0f0;
+    border-radius: 1rem;
+    margin: 0 5%;
+}
+.hobby ul li .icon {
+    width: 3rem;
+    font-size: 1.8rem;
+    color: var(--icon-color);
+}
