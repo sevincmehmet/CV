@@ -1,2 +1,2 @@
 # CV
-![Ekran görüntüsü ](https://user-images.githubusercontent.com/93881127/197022120-4bd7ada6-6124-47ea-b21b-b989bf736004.png)
+![image](https://user-images.githubusercontent.com/93881127/197022986-ac9e2f8e-fc09-48bf-bfd1-cce0f07d6957.png)
