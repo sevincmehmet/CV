@@ -123,6 +123,11 @@ body {
     font-size: 1.8rem;
     font-weight: 600;
 }
+.certificate span a{
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 300;
+}
 
 /*-----------------------Right Side---------------------------*/
 
